@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season Standings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Season Standings</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="constructors.html">Constructors' Championship</a></li>
+                <li><a href="drivers.html">Driver Profiles</a></li>
+                <li><a href="calendar.html">Race Calendar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <li> <h2>Enter a Season</h2></li>
+        <label for="season-input">Season (e.g., 2024):</label>
+        <input type="text" id="season-input" placeholder="Enter year (e.g., 2024)">
+        <button id="fetch-standings">Get Standings</button>
+        <div id="standings-results"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Formula 1 Stats Viewer</p>
+    </footer>
+    <script src="standings.js"></script>
+</body>
+</html>

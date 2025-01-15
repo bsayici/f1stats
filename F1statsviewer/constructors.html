@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructors' Championship</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Constructors' Championship</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="standings.html">Season Standings</a></li>
+                <li><a href="drivers.html">Driver Profiles</a></li>
+                <li><a href="calendar.html">Race Calendar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <li> <h2>Enter a Season</h2></li>
+        <label for="season-input">Season (e.g., 2024):</label>
+        <input type="text" id="season-input" placeholder="Enter year (e.g., 2024)">
+        <button id="fetch-constructors">Get Constructors' Standings</button>
+        <div id="constructors-results"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Formula 1 Stats Viewer</p>
+    </footer>
+    <script src="constructors.js"></script>
+</body>
+</html>
